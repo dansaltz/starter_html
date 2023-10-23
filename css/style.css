@@ -1,0 +1,217 @@
+body{
+    background-color: rgb(7, 7, 42);
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:red;
+}
+
+h3{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:chartreuse
+}
+
+p{
+line-height: 32px;
+}
+
+img{
+    border: solid 5px red;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+
+span.a{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav{
+    border: 2px solid green;
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+nav ul{
+    display:inline-block;
+}
+
+li{
+    display: inline-block;
+    height: auto;
+    padding-top: 10px;
+    color: white;
+}
+
+.current {
+    border-color: red;
+    font-size: x-large;
+}
+
+nav li:active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav a{
+    background-color: green;
+    padding: 5px;
+    margin: 20px;    
+}
+
+a{
+    text-align: underline;
+    border: solid rgb(174, 174, 197);
+}
+
+#skip{
+    text-transform: uppercase;
+    display: none;
+}
+
+.thumbnail{
+    border: 20px solid white;
+}
+
+
+#skip:focus{
+    left: 2000px;
+    }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.transition-header {
+    transition: transform 1s ease;
+}
+
+.transition-header:hover {
+    transform: translateX(300px);
+}
+
+.gifs {
+    display:inline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .transition-header {
+        transition: none;
+    }
+
+    .gifs {
+        display:none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 900px){
+
+body{
+    background-color: rgb(7, 7, 42);
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:brown
+}
+
+h3{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:chartreuse
+}
+
+p{
+line-height: 32px;
+}
+
+img{
+    border: solid 5px red;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+
+span.a{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav{
+    border: 2px solid green;
+}
+
+li{
+    display: inline-block;
+    height: 50px;
+    color: pink
+}
+
+nav a{
+    background-color: yellow;
+    padding: 5px;
+    margin: 20px;    
+}
+
+a{
+    text-align: underline;
+    border: solid rgb(174, 174, 197);
+}
+
+#skip{
+    text-transform: uppercase;
+}
+
+.thumbnail{
+    border: 20px solid white;
+}
+
+
+#skip:focus{
+    left: 2000px;
+    }
+
+}
