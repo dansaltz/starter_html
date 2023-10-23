@@ -56,6 +56,10 @@ li{
     color: black;
 }
 
+.current {
+    border-color: red;
+}
+
 nav li:active {
     text-decoration: underline;
     font-weight: bold;
@@ -85,6 +89,35 @@ a{
 #skip:focus{
     left: 2000px;
     }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.transition-header {
+    transition: transform 1s ease;
+}
+
+.transition-header:hover {
+    transform: translateX(300px);
+}
+
+.gifs {
+    display:inline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .transition-header {
+        transition: none;
+    }
+
+    .gifs {
+        display:none;
+    }
+}
+
 
 
 
