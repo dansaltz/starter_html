@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Travel</title>
 </head>
 
 <body>
@@ -13,7 +15,7 @@
     <nav>
         <ul>
             <li><a href="index.html">Home/Pets</a></li>
-            <li><a href="travel.html">Travel</a></li>
+            <li><a class="current" href="travel.html">Travel</a></li>
             <li><a href="recipes.html">Recipes</a></li>
         </ul>
     </nav>
@@ -26,7 +28,9 @@
     <div>
         <h2>Jungfrau Switzerland</h2>
     
-        <img src=images\jungfrau-helicopter.gif class = gif width="400" height="300" alt="Helicoper in Jungfrau.">
+        <div class="gifs">
+            <img src=images\jungfrau-helicopter.gif class = gif width="400" height="300" alt="Helicoper in Jungfrau.">
+        </div>
         <img src=images\jungfrau-summit.jpeg width = "400" height="300" alt="Top of jungfrau">
 
         <h3>Geographical Location: Europe</h3>
@@ -70,7 +74,10 @@
         <h2>Palo Alto</h2>
     
         <img class = "thumbnail" src="images\paloalto_spikeballgrass.jpeg" width="400" alt="Spikeball net in a grassy area at Stanford">
-        <img src="images\paloalto_oval.gif" width = "400" alt="Some friends playing intense spikeball">
+        
+        <div class="gifs">
+            <img src="images\paloalto_oval.gif" width = "400" alt="Some friends playing intense spikeball">
+        </div>
 
         <h3>Geographical Location: North America</h3>
         <p>Palo Alto is a city located in the San Francisco Bay Area in California. Palo Alto was established in 1894 when Leland Stanford founded Stanford University. It is named after a costal redwood tree called El Palo Alto. It is home to many tech companies and startups, as well as Stanford University.</p>
@@ -113,7 +120,10 @@
         <h2>Rome, Italy</h2>
     
         <figure>
-            <img src = "images/rome_gif.gif" width = "400" alt = "Rome along the Tiber River.">
+            <div class="gifs">
+                <img src = "images/rome_gif.gif" width = "400" alt = "Rome along the Tiber River.">
+            </div>
+            
             <figcaption>https://gfycat.com/gloomybruisedadamsstaghornedbeetle</figcaption>
         </figure>
         <figure>
@@ -160,8 +170,11 @@
 <body>
     <div>
         <h2>Barcelona</h2>
-    
-        <img src="images\Barcelona_gif.gif" width="400" alt = "Upwards span of Sagrada.">
+
+        <div class="gifs">
+            <img src="images\Barcelona_gif.gif" width="400" alt = "Upwards span of Sagrada.">
+        </div>
+       
         <img src="images\Barcelona_SagradaFamilia.jpg" width="200" height="400" alt = "vertical shot of Sagrada building.">
 
         <h3>Geographical Location: Europe</h3>
@@ -204,7 +217,10 @@
     <div>
         <h2>Grand Canyon</h2>
     
-        <img src="images\grand_canyon.gif" width="400" alt="grand canyon horizontal pane.">
+        <div class="gifs">
+            <img src="images\grand_canyon.gif" width="400" alt="grand canyon horizontal pane.">
+        </div>
+        
         <img src="images\grand_canyon.jpg" width="400" alt="boulder in middle of grand canyon">
 
         <h3>Geographical Location: North America</h3>
