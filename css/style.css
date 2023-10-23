@@ -58,7 +58,7 @@ li{
 
 .current {
     border-color: red;
-    font-size: x-large;
+    font-size: larger;
 }
 
 nav li:active {
